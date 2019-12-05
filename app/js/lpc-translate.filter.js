@@ -15,6 +15,7 @@ angular.module('LpcWebTest2018')
             if ($rootScope.localeData && locale) {
                 return $rootScope.localeData[locale][key];
             }
+            
             else return ' '
 
         }
