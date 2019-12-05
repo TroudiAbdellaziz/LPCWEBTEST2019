@@ -6,3 +6,44 @@ html,body{
 }
 
 /*TODO*/
+
+h1{
+  display: flex; 
+  justify-content: center
+}
+.lang-choice-container{
+  display: flex; 
+  justify-content: center
+}
+.row{
+  
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.col{
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+.pot-item{
+  width:550px !important;
+  height:200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display :flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.pot-name{
+  flex-direction: column;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-weight: bold;
+
+}
+.shadow{
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+}
